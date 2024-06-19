@@ -128,6 +128,7 @@ function Navbar() {
           onClick={() => {
             setIsActive(false);
           }}
+          style={{cursor:"pointer"}}
         >
           <i className="fa-solid fa-xmark"></i>
         </button>
